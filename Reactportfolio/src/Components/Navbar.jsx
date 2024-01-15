@@ -6,9 +6,9 @@ import Sidebar from "./Sidebar/Sidebar";
 const Navbar = () => {
   return (
     <div className="navbar">
-      <div className="wrapper">
       <Sidebar/>
-        <motion.span initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:0.5}}>Dilip Sharma</motion.span>
+      <div className="wrapper">
+        <motion.span initial={{opacity:0, scale:0.5}} animate={{opacity:1, scale:1}} transition={{duration:0.5}}>Portfolio</motion.span>
         <div className="social">
           <a href="">
             <img

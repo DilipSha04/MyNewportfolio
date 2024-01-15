@@ -5,8 +5,10 @@
     justify-content: center;
     background-color: white;
     color: black;
+    font-family: "DM Sans", sans-serif;
 
     .bg{
+        z-index: 999;
         position: fixed;
         top: 0;
         left: 0;
@@ -24,11 +26,15 @@
             justify-content: center;
             gap: 20px;
 
+            a{
+                font-size: 24px;
+            }
+
         }
 
     }
     button{
-
+        z-index: 999;
         width: 50px;
         height: 50px;
         border-radius: 50%;
@@ -40,8 +46,6 @@
         color: rgb(54, 67, 35);
         cursor: pointer;
 
-        a{
-            font-size: 40px;
-        }
+        
     }
 }
