@@ -1,5 +1,5 @@
 import React from "react";
-import {motion} from "framer-motion";
+import { motion } from "framer-motion";
 
 const variants = {
   open: {
@@ -25,11 +25,17 @@ const itemVariants = {
   },
 };
 const Link = () => {
-  const items = ["Homepage", "Projects", "Education", "Contact"];
+  const items = ["Homepage", "About Me", "Projects", "Contact"];
   return (
     <motion.div className="link" variants={variants}>
       {items.map((item) => (
-        <motion.a href={`#${item}`} key={item} variants={itemVariants} whileHover={{scale:1.1}} whileTap={{scale:0.95}}>
+        <motion.a
+          href={`#${item}`}
+          key={item}
+          variants={itemVariants}
+          whileHover={{ scale: 1.1 }}
+          whileTap={{ scale: 0.95 }}
+        >
           {item}
         </motion.a>
       ))}
