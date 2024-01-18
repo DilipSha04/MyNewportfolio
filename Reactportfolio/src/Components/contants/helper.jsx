@@ -1,0 +1,1 @@
+// export const IMG_URL = "https://unsplash.com/photos/flat-screen-television-displaying-netflix-logo-AWOl7qqsffM"

@@ -35,7 +35,7 @@ const AboutMeInfo = () => {
         <hr />
       </motion.div>
       <motion.div className="titleContainer" variants={variants}>
-        <img src="/public/img/coding2.jpg" alt="" />
+        <motion.img whileHover={{scale: 1.1}} src="/public/img/coding2.jpg" alt="" />
         <h1>Education</h1>
       </motion.div>
       <motion.div className="eduContent" variants={variants}>

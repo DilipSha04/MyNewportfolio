@@ -5,6 +5,8 @@ import Test from "./Test";
 import Hero from "./Components/Hero";
 import AboutMe from "./Components/AboutMe";
 import AboutMeInfo from "./Components/AboutMeInfo";
+import Skill from "./Components/Skill";
+import Projects from "./Components/Projects";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -22,10 +24,11 @@ function App() {
         <section id="About Me">
           <AboutMeInfo />
         </section>
-        <section>Portfolio2</section>
+        <section><Skill/></section>
         <section id="Projects">
           <AboutMe type="project" />
         </section>
+        <Projects />
         <section id="Contact">Portfolio1</section>
         {/* <Test />
         <Test /> */}

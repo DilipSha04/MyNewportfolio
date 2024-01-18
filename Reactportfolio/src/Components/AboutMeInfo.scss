@@ -5,6 +5,7 @@
     flex-direction: column;
     justify-content: space-evenly;
     font-family: "DM Sans", sans-serif;
+    overflow: hidden;
     position: relative;
 
     .quoteContainer{
@@ -65,7 +66,7 @@
         width: 300px;
         height: 400px;
         position: absolute;
-        bottom: 0;
+        bottom: 10px;
         right: 10px;
     }
 
