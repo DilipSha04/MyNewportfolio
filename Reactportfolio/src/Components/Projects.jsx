@@ -7,6 +7,8 @@ const items = [
     id: 1,
     title: "NetflixGPT",
     img: "/public/img/netflixGpt.png",
+    adressUrl: "https://netflixgpt4d.vercel.app/",
+    codeUrl: "https://github.com/DilipSha04/netflix-gpt.git",
     description:
       "Experience entertainment like never before with the NetflixGPT app. Seamlessly integrating TMDB API for an extensive movie library, the application features an intelligent search and suggestion system powered by ChatGPT 3.5 API. Built using React, Redux Toolkit, Tailwind CSS, and Firebase for authentication, this project showcases a sleek design and cutting-edge technology.",
   },
@@ -14,6 +16,8 @@ const items = [
     id: 2,
     title: "Bigbite",
     img: "/public/img/bigbite.png",
+    adressUrl: "https://bigbite4d.vercel.app/",
+    codeUrl: "https://github.com/DilipSha04/Foodapp.git",
     description:
       "Indulge your taste buds with the BigBite food ordering app, a culinary adventure crafted with innovation. Leveraging Swiggy's API for a vast and diverse menu, the application boasts features like easy menu navigation, seamless item addition to the cart, and a streamlined checkout process. Developed with React, Redux Toolkit, Tailwind CSS, and Parcel Bundler, this app delivers a delightful user experience. With a responsive interface and efficient routing, BigBite ensures a hassle-free journey from menu exploration to satisfying your cravings. ",
   },
@@ -21,6 +25,8 @@ const items = [
     id: 3,
     title: "FunTube",
     img: "/public/img/youtube.png",
+    adressUrl: "https://my-youtube4d.vercel.app/",
+    codeUrl: "https://github.com/DilipSha04/my-youtube.git",
     description:
       "Embark on an immersive YouTube journey with the YouTube Explorer app, leveraging the YouTube API for diverse content access. Packed with features like debouncing for efficient search, API pooling for live chat, and infinite scroll, the app guarantees a dynamic and user-friendly experience. Developed using React, Redux, Tailwind CSS, and Router, it offers seamless navigation and a sleek design. With a focus on optimization, the YouTube Explorer app ensures a snappy interface for effortless content discovery, redefining how you explore and enjoy YouTube.",
   },
@@ -28,6 +34,8 @@ const items = [
     id: 4,
     title: "Vanila Js App",
     img: "/public/img/feedback.png",
+    adress: "https://myfeedback-ui.netlify.app/",
+    codeUrl: "https://github.com/DilipSha04/Feedback-Ui.git",
     description:
       "Experience the simplicity and elegance of the Feedback Form app, a small yet impactful demonstration of HTML, CSS, and vanilla JavaScript. This application showcases the art of DOM manipulation with a beautiful user interface. With minimalistic design elements, the app makes providing feedback a seamless and visually pleasing experience. Explore the harmony of functionality and aesthetics, highlighting the power of client-side scripting for an engaging and efficient user interaction.",
   },
@@ -41,7 +49,7 @@ const Single = ({ item }) => {
     // offset: ["start start", "end start"],
   });
 
-  const y = useTransform(scrollYProgress, [0, 1], [-300, 300]);
+  // const y = useTransform(scrollYProgress, [0, 1], [-500, 500]);
 
   return (
     <section>
@@ -51,12 +59,16 @@ const Single = ({ item }) => {
             <div className="imgContainer" ref={ref}>
               <img src={item.img} alt="" />
             </div>
-            <motion.div className="textContainer" style={{ y }}>
+            <motion.div className="textContainer" >
               <h2>{item.title}</h2>
               <p>{item.description}</p>
               <div className="buttons">
-                <button>See Demo</button>
-                <button>See Code</button>
+                <button>
+                  <a href={item.adressUrl}>See Demo</a>
+                </button>
+                <button>
+                  <a href={item.codeUrl}>See Code</a>
+                </button>
               </div>
             </motion.div>
           </div>

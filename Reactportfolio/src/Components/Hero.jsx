@@ -50,8 +50,13 @@ const Hero = () => {
           <motion.h2 variants={textVariants}>DILIP SHARMA</motion.h2>
           <motion.h1 variants={textVariants}>Frontend Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
-            <motion.button variants={textVariants}>See My Work</motion.button>
-            <motion.button variants={textVariants}>Contact Me</motion.button>
+            <motion.button variants={textVariants} whileHover={{backgroundColor: "orange", color: "black"}}>
+              <a href="">Resume</a>
+            </motion.button>
+            <motion.button variants={textVariants} whileHover={{backgroundColor: "orange", color: "black"}}>
+              {" "}
+              <a href="#Contact">Hire Me</a>
+            </motion.button>
           </motion.div>
           <motion.img
             variants={textVariants}
@@ -61,7 +66,14 @@ const Hero = () => {
           />
         </motion.div>
       </div>
-      <motion.div className="slidingTextContainer" variants={slideVariants} animate="animate" initial="initial">React Developer & Web designer</motion.div>
+      <motion.div
+        className="slidingTextContainer"
+        variants={slideVariants}
+        animate="animate"
+        initial="initial"
+      >
+        React Developer & Web designer
+      </motion.div>
       <div className="imageContainer">
         <img className="img" src="\public\img\hero.svg" alt="" />
       </div>

@@ -1,3 +1,5 @@
+@import "../app.scss";
+
 .aboutMeInfo{
     background: linear-gradient(180deg, #0c0c1d, #111132);
     height: 100%;
@@ -7,6 +9,8 @@
     font-family: "DM Sans", sans-serif;
     overflow: hidden;
     position: relative;
+    
+    
 
     .quoteContainer{
         margin-top: 3rem;
