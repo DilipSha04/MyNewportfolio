@@ -21,6 +21,52 @@ const variants = {
 const AboutMeInfo = () => {
   return (
     <>
+    <div className="mobile">
+    <div
+        className="aboutMeInfo_mobile"
+      >
+        <div className="quoteContainer" >
+          <p>
+            “Tell me and I forget, teach me and I may remember,
+            <br />
+            involve me and I learn.” — Benjamin Franklin
+          </p>
+          <hr />
+        </div>
+        <div className="titleContainer">
+          <img
+            src="/public/img/coding2.jpg"
+            alt=""
+          />
+          <h1>Education</h1>
+        </div>
+        <div className="eduContent">
+          <div className="college">
+            <span>College:</span> <br />
+            <h3>Career College Bhopal</h3>
+            <br />
+            <span>Degree:</span>
+            <br />
+            <p>BSc in Information Technology</p>
+          </div>
+          <div className="school">
+            <span>School</span>
+            <br />
+            <h3>Vaishnavi Public school</h3>
+            <br />
+            <span>Higher Sec.</span>
+            <br />
+            <p>Science - Maths,Physics, Chemsitry</p>
+          </div>
+        </div>
+        <img
+          className="studenImg"
+          src="/public/img/student.png"
+          alt=""
+        />
+      </div>
+    </div>
+      <div className="desktop">
       <motion.div
         className="aboutMeInfo desktop"
         variants={variants}
@@ -69,6 +115,7 @@ const AboutMeInfo = () => {
           alt=""
         />
       </motion.div>
+      </div>
     </>
   );
 };

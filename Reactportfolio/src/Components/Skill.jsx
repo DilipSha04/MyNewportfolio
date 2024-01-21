@@ -33,6 +33,52 @@ const slideVariants = {
 
 const Skill = () => {
   return (
+    <>
+    {/* monile */}
+    <div className="mobile">
+      <div
+      className="skill_mobile"
+    >
+      <div className="mainContainer" variants={variants}>
+        <h1 variants={variants}>
+          <b whileHover={{color: "orange"}}> My Skills</b>
+          <hr />
+        </h1>
+        <div className="conentCont" variants={variants}>
+          <div className="textContainer" variants={variants}>
+            <p>
+              I possess a strong frontend skill set, excelling in React, Redux,
+              JavaScript, and Tailwind CSS. My proficiency extends to crafting
+              visually appealing designs with HTML, CSS, and SCSS. Additionally,
+              I bring creativity to projects through the use of the Framer
+              animation library. With a keen eye for detail, I am well-prepared
+              to contribute to innovative and user-centric frontend development.
+            </p>
+          </div>
+          <motion.div className="iconContainer" variants={variants}>
+            <motion.div
+              className="imgContainer"
+              variants={slideVariants}
+              initial="initial"
+              animate="animate"
+            >
+              <img src="/img/redux.png" alt="" />
+              <img src="/img/html.svg" alt="" />
+              <img src="/img/javascript-logo-svgrepo-com.svg" alt="" />
+              <img src="/img/github.svg" alt="" />
+              <img src="/img/react-svgrepo-com.svg" alt="" />
+              <img src="/img/tailwind.svg" alt="" />
+              <img src="/img/vite.svg" alt="" />
+              <img src="/img/babel.svg" alt="" />
+              <img src="/img/css3-svgrepo-com.svg" alt="" />
+            </motion.div>
+          </motion.div>
+        </div>
+      </div>
+    </div>
+    </div>
+     {/* desktop */}
+    <div className="desktop">
     <motion.div
       className="skill"
       variants={variants}
@@ -76,6 +122,9 @@ const Skill = () => {
         </motion.div>
       </motion.div>
     </motion.div>
+    </div>
+    
+    </>
   );
 };
 

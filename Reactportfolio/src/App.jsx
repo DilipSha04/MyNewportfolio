@@ -25,16 +25,16 @@ function App() {
         <section id="About Me">
           <AboutMeInfo />
         </section>
-        {/* <section>
+        <section>
           <Skill />
-        </section> */}
-        {/* <section id="Projects">
+        </section>
+        <section id="Projects">
           <AboutMe type="project" />
-        </section> */}
-        {/* <Projects /> */}
-        {/* <section id="Contact">
+        </section>
+        <Projects />
+        <section id="Contact">
           <Contact />
-        </section> */}
+        </section>
         {/* <Test />
         <Test /> */}
         {/* “Tell me and I forget, teach me and I may remember, involve me and I learn.” — Benjamin Franklin

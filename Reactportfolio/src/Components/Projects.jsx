@@ -52,7 +52,7 @@ const Single = ({ item }) => {
   // const y = useTransform(scrollYProgress, [0, 1], [-500, 500]);
 
   return (
-    <section>
+    <section className="project_section">
       <div className="proContainer">
         <div className="wrapper">
           <div className="subWrapper">
