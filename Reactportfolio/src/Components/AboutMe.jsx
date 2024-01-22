@@ -32,8 +32,8 @@ const AboutMe = ({ type }) => {
           y: yBg,
           backgroundImage: `url(${
             type === "aboutme"
-              ? "public/img/planets.png"
-              : " public/img/sun.png"
+              ? "/img/planets.png"
+              : "/img/sun.png"
           })`,
         }}
         className="planets"

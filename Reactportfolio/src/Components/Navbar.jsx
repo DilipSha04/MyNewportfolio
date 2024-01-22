@@ -13,15 +13,15 @@ const Navbar = () => {
           <a href="">
             <img
               className="social-img"
-              src="public\img\github (2).png"
+              src="/img/github (2).png"
               alt=""
             />
           </a>
           <a href="">
-            <img className="social-img" src="public\img\linkedin.png" alt="" />
+            <img className="social-img" src="/img/linkedin.png" alt="" />
           </a>
           <a href="">
-            <img className="social-img" src="public\img\twitter.png" alt="" />
+            <img className="social-img" src="/img/twitter.png" alt="" />
           </a>
         </div>
       </div>

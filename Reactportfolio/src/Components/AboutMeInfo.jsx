@@ -35,7 +35,7 @@ const AboutMeInfo = () => {
         </div>
         <div className="titleContainer">
           <img
-            src="/public/img/coding2.jpg"
+            src="/img/coding2.jpg"
             alt=""
           />
           <h1>Education</h1>
@@ -61,7 +61,7 @@ const AboutMeInfo = () => {
         </div>
         <img
           className="studenImg"
-          src="/public/img/student.png"
+          src="/img/student.png"
           alt=""
         />
       </div>
@@ -84,7 +84,7 @@ const AboutMeInfo = () => {
         <motion.div className="titleContainer" variants={variants}>
           <motion.img
             whileHover={{ scale: 1.1 }}
-            src="/public/img/coding2.jpg"
+            src="/img/coding2.jpg"
             alt=""
           />
           <h1>Education</h1>
@@ -110,7 +110,7 @@ const AboutMeInfo = () => {
         </motion.div>
         <img
           className="studenImg"
-          src="/public/img/student.png"
+          src="/img/student.png"
           variants={variants}
           alt=""
         />

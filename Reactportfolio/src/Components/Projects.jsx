@@ -6,7 +6,7 @@ const items = [
   {
     id: 1,
     title: "NetflixGPT",
-    img: "/public/img/netflixGpt.png",
+    img: "/img/netflixGpt.png",
     adressUrl: "https://netflixgpt4d.vercel.app/",
     codeUrl: "https://github.com/DilipSha04/netflix-gpt.git",
     description:
@@ -15,7 +15,7 @@ const items = [
   {
     id: 2,
     title: "Bigbite",
-    img: "/public/img/bigbite.png",
+    img: "/img/bigbite.png",
     adressUrl: "https://bigbite4d.vercel.app/",
     codeUrl: "https://github.com/DilipSha04/Foodapp.git",
     description:
@@ -24,7 +24,7 @@ const items = [
   {
     id: 3,
     title: "FunTube",
-    img: "/public/img/youtube.png",
+    img: "/img/youtube.png",
     adressUrl: "https://my-youtube4d.vercel.app/",
     codeUrl: "https://github.com/DilipSha04/my-youtube.git",
     description:
@@ -33,7 +33,7 @@ const items = [
   {
     id: 4,
     title: "Vanila Js App",
-    img: "/public/img/feedback.png",
+    img: "/img/feedback.png",
     adress: "https://myfeedback-ui.netlify.app/",
     codeUrl: "https://github.com/DilipSha04/Feedback-Ui.git",
     description:
