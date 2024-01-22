@@ -10,13 +10,14 @@
     overflow: hidden;
 
     @include mobile{
-        
+        scroll-snap-type: none;
     }
 
     h1{
         font-size: 100px;
         @include mobile{
-            font-size: 70px;
+            font-size: 50px;
+            padding: 0 2rem;
         }
     }
 

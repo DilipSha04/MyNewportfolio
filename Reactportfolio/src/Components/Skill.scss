@@ -10,11 +10,15 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    scroll-snap-type: none;
+    margin: 2rem 0;
+  
   }
 
   @include mobile {
     .skill_mobile {
-      height: 100vh;
+      height: 120vh;
+      
       width: 100%;
       display: flex;
       flex-direction: column;
@@ -48,6 +52,7 @@
             top: 10%;
             border: none;
             border-top: 0.5px solid gray;
+            display: none;
 
           }
         }
@@ -69,6 +74,9 @@
             letter-spacing: 2px;
             border: 1 solid gray;
             text-align: center;
+            @include mobile{
+              font-size: 18px;
+            }
 
             p{
               line-height: 30px;
