@@ -51,7 +51,7 @@ const Hero = () => {
           <motion.h1 variants={textVariants}>Frontend Developer</motion.h1>
           <motion.div variants={textVariants} className="buttons">
             <motion.button variants={textVariants} whileHover={{backgroundColor: "orange", color: "black"}}>
-              <a href="">Resume</a>
+              <a href="https://drive.google.com/file/d/1kgTQD_ttChWyJfjzewSLSykrXsCRGTQ-/view?usp=drive_link">Resume</a>
             </motion.button>
             <motion.button variants={textVariants} whileHover={{backgroundColor: "orange", color: "black"}}>
               {" "}
